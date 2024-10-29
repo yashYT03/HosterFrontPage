@@ -1,0 +1,88 @@
+.banner{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+.banner .sliderFull .item {position: relative;
+    z-index: 100;
+    width: 100% !important;
+}
+
+
+.banner .sliderFull .item::before{content: '';
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to right, #101115, rgba(0,0,0,0));
+    z-index: 10;
+   }
+
+.banner img{height: auto !important;}
+
+
+.banner .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 50px 100px;
+    z-index: 1000;
+    width: 45%;
+}
+
+
+
+.banner .overlay .seasionTitle {
+    color:#42cbfd;
+    font-weight: 700;
+
+}
+
+.banner .overlay .txt{
+    font-weight: 400;
+    opacity: 0.9;
+    
+}
+
+.banner .overlay button{
+    width: 100% !important;
+    padding: 10px  25px !important;
+    font-size: 20px !important;
+    background: rgb(255, 255, 255, 0.2) !important;
+    color:#fff !important ;
+}
+
+
+.banner .sliderSml{
+position: absolute;
+bottom:  20%;
+right: 10%;
+z-index: 1000;
+width: 500px;
+
+}
+.banner .sliderSml .slick-slide{
+    padding:0px 4px !important;
+    border: 2px solid transparent;
+}
+.banner .sliderSml .slick-slide .item{
+    border: 2px solid transparent;
+}
+.banner .sliderSml .slick-current .item{
+    border: 2px solid #fff;
+}
+
+.banner .videoWrapper{position: absolute;
+top: -10%;
+left: 0px;
+width: 100% !important;
+height: 100% !important;
+}
